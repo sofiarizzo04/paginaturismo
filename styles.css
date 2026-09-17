@@ -1,0 +1,102 @@
+.header {
+    background-color: #F6F3EC; 
+    color: #fff;
+    padding: 19px 0;
+    width: 100%;    
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.menu {
+    display: flex;
+    gap: 25px; 
+   
+}
+
+.menuunavegacion {
+    background-color: #DCC9A8; 
+ width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+
+.menu a {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 0.75rem;
+    font-weight: 600;
+    
+   
+}
+
+
+.menu a:hover {
+    color: #DCC9A8; 
+}
+
+.Frentones {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 50px; 
+    padding: 60px 0;
+}
+
+
+.frentones-texto {
+    font-family: 'Playfair Display', serif; 
+    font-size: 0.75rem;
+    flex: 1; 
+}
+
+.Frentonesboton{
+    display: inline-block;
+    background-color: #3E4A2E; 
+    color: #21461d;              
+    padding: 10px 25px;       
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 15px;          
+    border-radius: 2px;       
+}
+
+.circuitoturistico{
+    background-color: #6B7A4E; 
+    color: #fff;
+    padding: 19px 0;
+    width: 100%; 
+
+}
+
+.locales{
+ background-color: #DCC9A8; 
+    color: #fff;
+    padding: 19px 0;
+    width: 100%; 
+}
+
+.tinycabins{
+     background-color: #DCC9A8; 
+    color: #fff;
+    padding: 19px 0;
+    width: 100%; 
+
+}
