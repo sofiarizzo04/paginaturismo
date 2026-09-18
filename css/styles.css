@@ -21,16 +21,6 @@
    
 }
 
-.menuunavegacion {
-    background-color: #DCC9A8; 
- width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-}
-
 
 .menu a {
     color: #000000;
@@ -42,21 +32,10 @@
    
 }
 
-
 .menu a:hover {
     color: #DCC9A8; 
 }
 
-.Frentones {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center; 
-    justify-content: space-between;
-    gap: 50px; 
-    padding: 60px 0;
-}
 
 
 .frentones-texto {
