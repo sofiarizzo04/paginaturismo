@@ -37,9 +37,7 @@
     font-family: 'Montserrat';
     font-size: 0.75rem;
     font-weight: 600;
-    
-   
-}
+    }
 
 .menu a:hover {
     color: #DCC9A8; 
@@ -96,4 +94,11 @@
     padding: 19px 0;
     width: 100%; 
 
+}
+
+.pueblo{
+    background-color: #DCC9A8; 
+    color: #fff;
+    padding: 19px 0;
+    width: 100%;
 }
