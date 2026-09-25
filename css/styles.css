@@ -43,7 +43,7 @@
     color: #DCC9A8; 
 }
 
-.frentonesimagen{
+.frentones{
  width: 90%;
     max-width: 1200px;
     margin: 0 auto;
@@ -53,6 +53,15 @@
     gap: 50px; 
     padding: 60px 0;
 }
+
+    .frentonesimagen {
+      flex: 1.2;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; 
+      display: block;
+    }
 
 .frentones-texto {
     font-family: 'Playfair Display', serif; 
