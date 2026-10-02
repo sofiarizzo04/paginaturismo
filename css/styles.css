@@ -48,7 +48,7 @@
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    align-items: 
+    align-items: center;
     justify-content: space-between;
     gap: 50px; 
     padding: 60px 0;
