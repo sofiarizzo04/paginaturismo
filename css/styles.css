@@ -5,7 +5,6 @@
     width: 100%;    
 }
 
-
 .container {
     width: 90%;
     max-width: 1200px;
@@ -31,17 +30,7 @@
     align-items: center;
 }
 
-.menu a {
-    color: #000000;
-    text-decoration: none;
-    font-family: 'Montserrat';
-    font-size: 0.75rem;
-    font-weight: 600;
-    }
 
-.menu a:hover {
-    color: #DCC9A8; 
-}
 
 .frentones{
  width: 90%;
