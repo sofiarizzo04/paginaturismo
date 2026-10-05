@@ -96,10 +96,12 @@
 }
 
 .tinycabins{
-     background-color: #DCC9A8; 
+    background-color: #DCC9A8; 
     color: #fff;
     padding: 19px 0;
     width: 100%; 
+    margin:auto;
+    padding: 19px 0;
 
 }
 
