@@ -24,7 +24,6 @@
     display: block;
 }
 
-/* Oscurece un poco la imagen para que se lea mejor el texto */
 .imagenprinc::after {
     content: "";
     position: absolute;
@@ -37,7 +36,7 @@
     top: 50%;
     left: 8%;
     transform: translateY(-50%);
-    z-index: 2; /* para que quede encima del degradado */
+    z-index: 2;
     color: white;
     max-width: 500px;
 }
