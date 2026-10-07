@@ -15,6 +15,54 @@
     align-items: center; 
 }
 
+.imagenprinc {
+    position: relative;
+}
+
+.imagenprinc img {
+    width: 100%;
+    display: block;
+}
+
+/* Oscurece un poco la imagen para que se lea mejor el texto */
+.imagenprinc::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, rgba(0,0,0,0.5), transparent 60%);
+}
+
+.texto-portada {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 2; /* para que quede encima del degradado */
+    color: white;
+    max-width: 500px;
+}
+
+.texto-portada h1 {
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.texto-portada h2 {
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0 0 15px;
+}
+
+.btn-portada {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #6B7A4E;
+    color: white;
+    text-decoration: none;
+}
+
 .menu {
     display: flex;
     gap: 25px; 
