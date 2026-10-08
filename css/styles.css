@@ -62,32 +62,50 @@
     text-decoration: none;
 }
 
-.menu {
-    display: flex;
-    gap: 25px; 
-   
-}
 
 .menuunavegacion {
-    background-color: #DCC9A8; 
-    width: 100%;
-    max-width: 1400px;
-    margin: 0 auto;
     display: flex;
-    justify-content: space-between; 
-    align-items: center;
+    justify-content: space-around;
+    background: #EFE6D5;
+    padding: 30px 20px;
 }
 
-.menu a {
-    color: #000000;
+.item-menu {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
     text-decoration: none;
-    font-family: 'Montserrat';
-    font-size: 0.75rem;
+    color: #3E4A2E;
     font-weight: 600;
-    }
+    border-right: 1px solid #C9BDA3;
+    padding: 10px 15px;
+}
 
-.menu a:hover {
-    color: #DCC9A8; 
+.item-menu:last-child {
+    border-right: none;
+}
+
+.item-menu i {
+    font-size: 2.5rem;
+}
+
+.item-menu:hover {
+    color: #6B7A4E;
+}
+
+/* En celular: 2 columnas en vez de 6 */
+@media (max-width: 700px) {
+    .menuunavegacion {
+        flex-wrap: wrap;
+    }
+    .item-menu {
+        flex: 0 0 50%;
+        border-right: none;
+        padding: 20px 10px;
+    }
 }
 
 .frentones {
