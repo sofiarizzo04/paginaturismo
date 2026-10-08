@@ -143,22 +143,126 @@
 
 }
 
-.locales{
- background-color: #DCC9A8; 
-    color: #fff;
-    padding: 19px 0;
-    width: 100%; 
+.emprendimientos {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 40px;
+    align-items: center;
+    padding: 50px 60px;
+    background: linear-gradient(135deg, #DCC9A8, #C9B48C);
 }
 
-.tinycabins{
-    background-color: #DCC9A8; 
-    color: #fff;
-    padding: 19px 0;
-    width: 100%; 
-    margin:auto;
-    padding: 19px 0;
-
+/* Columna izquierda */
+.emp-intro h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    color: #3E4A2E;
+    margin: 0 0 15px;
 }
+
+.emp-intro p {
+    color: #5A3E2B;
+    margin: 0 0 20px;
+    line-height: 1.5;
+}
+
+.btn-emp {
+    display: inline-block;
+    padding: 10px 22px;
+    background: #A88F6A;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.btn-emp:hover {
+    background: #5A3E2B;
+}
+
+/* Tarjeta */
+.emp-tarjeta {
+    display: flex;
+    background: #F6F3EC;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.emp-info {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.emp-info h3 {
+    font-family: "Playfair Display", serif;
+    color: #3E4A2E;
+    margin: 0 0 8px;
+}
+
+.emp-sub {
+    font-size: 0.8rem;
+    color: #6B7A4E;
+    margin-bottom: 15px;
+}
+
+.emp-info p {
+    color: #5A3E2B;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.emp-tarjeta img {
+    flex: 1.2;
+    width: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Puntitos del carrusel */
+.emp-puntos {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.emp-puntos span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #A88F6A;
+    opacity: 0.5;
+}
+
+.emp-puntos span.activo {
+    opacity: 1;
+    background: #3E4A2E;
+}
+
+/* Celular */
+@media (max-width: 800px) {
+    .emprendimientos {
+        grid-template-columns: 1fr;
+        padding: 30px 20px;
+    }
+    .emp-puntos {
+        grid-column: 1;
+    }
+    .emp-tarjeta {
+        flex-direction: column;
+    }
+    .emp-tarjeta img {
+        width: 100%;
+        height: 220px;
+    }
+}
+
+
 
 .pueblo{
     background-color: #DCC9A8; 
