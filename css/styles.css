@@ -53,7 +53,7 @@
     margin: 0 0 15px;
 }
 
-.btn-portada {
+.boton-portada {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 20px;
@@ -114,6 +114,13 @@
     font-size: 0.75rem;
     flex: 1; 
 }
+.boton-frentones {
+    display: inline-block;
+    background-color: #3E4A2E;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
 
 .frentonesimagen {
     flex: 1.2; 
@@ -130,10 +137,6 @@
     display: block;
 }
 
-.Frentonesboton {
-    display: inline-block;
-    background-color: #3E4A2E;
-}
 
 .circuitoturistico{
     background-color: #6B7A4E; 
@@ -153,20 +156,20 @@
 }
 
 
-.emp-intro h2 {
+.emprendimientos-locales h2 {
     font-family: "Playfair Display", serif;
     font-size: 1.8rem;
     color: #000000;
     margin: 0 0 15px;
 }
 
-.emp-intro p {
+.emprendimientos-locales p {
     color: #5A3E2B;
     margin: 0 0 20px;
     line-height: 1.5;
 }
 
-.btn-emp {
+.boton-emp {
     display: inline-block;
     padding: 10px 22px;
     background: #A88F6A;
@@ -176,12 +179,12 @@
     font-size: 0.9rem;
 }
 
-.btn-emp:hover {
+.boton-emp:hover {
     background: #5A3E2B;
 }
 
 
-.emp-tarjeta {
+.emprendimientos-caja {
     display: flex;
     background: #F6F3EC;
     border-radius: 12px;
@@ -189,7 +192,7 @@
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
-.emp-info {
+.emprendimientos-info {
     flex: 1;
     padding: 30px;
     display: flex;
@@ -197,25 +200,25 @@
     justify-content: center;
 }
 
-.emp-info h3 {
+.emprendimientos-info h3 {
     font-family: "Playfair Display", serif;
     color: #040504;
     margin: 0 0 8px;
 }
 
-.emp-sub {
+.emprendimientos-sub {
     font-size: 0.8rem;
     color: #080807;
     margin-bottom: 15px;
 }
 
-.emp-info p {
+.emprendimientos-info p {
     color: #000000;
     line-height: 1.5;
     margin: 0;
 }
 
-.emp-tarjeta img {
+.emprendimientos-caja img {
     flex: 1.2;
     width: 50%;
     object-fit: cover;
