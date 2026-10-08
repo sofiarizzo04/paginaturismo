@@ -33,7 +33,7 @@
 
 .texto-portada {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 8%;
     transform: translateY(-50%);
     z-index: 2;
@@ -42,7 +42,7 @@
 }
 
 .texto-portada h1 {
-    font-size: 3.5rem;
+    font-size: 5rem;
     margin: 0;
 }
 
