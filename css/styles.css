@@ -15,6 +15,25 @@
     align-items: center; 
 }
 
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 25px; 
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #6B7A4E;
+}
+
 .imagenprinc {
     position: relative;
 }
@@ -53,7 +72,7 @@
     margin: 0 0 15px;
 }
 
-.btn-portada {
+.boton-portada {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 20px;
@@ -130,7 +149,7 @@
     display: block;
 }
 
-.Frentonesboton {
+.boton-frentones{
     display: inline-block;
     background-color: #3E4A2E;
 }
