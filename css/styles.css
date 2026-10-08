@@ -33,7 +33,7 @@
 
 .texto-portada {
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 8%;
     transform: translateY(-50%);
     z-index: 2;
