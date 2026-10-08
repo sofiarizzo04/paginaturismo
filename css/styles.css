@@ -152,11 +152,11 @@
     background: linear-gradient(135deg, #DCC9A8, #C9B48C);
 }
 
-/* Columna izquierda */
+
 .emp-intro h2 {
     font-family: "Playfair Display", serif;
     font-size: 1.8rem;
-    color: #3E4A2E;
+    color: #000000;
     margin: 0 0 15px;
 }
 
@@ -180,7 +180,7 @@
     background: #5A3E2B;
 }
 
-/* Tarjeta */
+
 .emp-tarjeta {
     display: flex;
     background: #F6F3EC;
@@ -199,18 +199,18 @@
 
 .emp-info h3 {
     font-family: "Playfair Display", serif;
-    color: #3E4A2E;
+    color: #040504;
     margin: 0 0 8px;
 }
 
 .emp-sub {
     font-size: 0.8rem;
-    color: #6B7A4E;
+    color: #080807;
     margin-bottom: 15px;
 }
 
 .emp-info p {
-    color: #5A3E2B;
+    color: #000000;
     line-height: 1.5;
     margin: 0;
 }
@@ -221,47 +221,6 @@
     object-fit: cover;
     display: block;
 }
-
-/* Puntitos del carrusel */
-.emp-puntos {
-    grid-column: 2;
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin-top: 20px;
-}
-
-.emp-puntos span {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: #A88F6A;
-    opacity: 0.5;
-}
-
-.emp-puntos span.activo {
-    opacity: 1;
-    background: #3E4A2E;
-}
-
-/* Celular */
-@media (max-width: 800px) {
-    .emprendimientos {
-        grid-template-columns: 1fr;
-        padding: 30px 20px;
-    }
-    .emp-puntos {
-        grid-column: 1;
-    }
-    .emp-tarjeta {
-        flex-direction: column;
-    }
-    .emp-tarjeta img {
-        width: 100%;
-        height: 220px;
-    }
-}
-
 
 
 .pueblo{
