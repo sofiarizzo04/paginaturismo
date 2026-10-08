@@ -22,7 +22,7 @@
 }
 
 .menu a {
-    text-decoration: none;
+    font-family:'monserrat', sans-serif;
     color: #333333;
     font-size: 13px;
     font-weight: 600;
@@ -31,7 +31,7 @@
 }
 
 .menu a:hover {
-    color: #6B7A4E;
+    color: #a88f6a;
 }
 
 .imagenprinc {
