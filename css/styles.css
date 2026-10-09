@@ -130,8 +130,9 @@
     padding: 60px 0;
 }
 
-.frentones-texto {
+.frentones-texto h3{
     font-family: 'Playfair Display', serif;
+    color: #6b7a4e;
     font-size: 2rem;
     flex: 1; 
 }
