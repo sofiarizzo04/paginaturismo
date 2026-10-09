@@ -162,6 +162,16 @@
 
 }
 
+.boton-circuito {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #dcc9a8;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.75rem;
+}
+
 .emprendimientos {
     display: grid;
     grid-template-columns: 1fr 2fr;
