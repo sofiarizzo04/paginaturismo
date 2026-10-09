@@ -142,8 +142,8 @@
 }
 
 .frentonesimagen img {
-    width: 100%;
-    max-width: 500px;
+    width: 150%;
+    max-width: 700px;
     height: auto;
     object-fit: cover;
     display: block;
