@@ -150,9 +150,18 @@
     display: block;
 }
 
-.boton-frentones{
+.boton-frentones {
     display: inline-block;
-    background-color: #3E4A2E;
+    padding: 10px 22px;
+    background: #3E4A2E;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.boton-frentones:hover {
+    background: #3E4A2E;
 }
 
 .circuitoturistico{
