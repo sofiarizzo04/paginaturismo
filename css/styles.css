@@ -66,10 +66,15 @@
 }
 
 .texto-portada h2 {
-    font-size: 2rem;
-    font-style: italic;
+    font-size: 3rem;
+    font-family: italic;
     font-weight: normal;
     margin: 0 0 15px;
+}
+
+.texto-portada p{
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
 }
 
 .boton-portada {
