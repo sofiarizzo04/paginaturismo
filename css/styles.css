@@ -179,6 +179,13 @@
     width: 100%; 
 }
 
+.circuitoturistico h5{
+    font-family: "Montserrat", sans-serif;
+    color: #fffdfd;
+    font-size: 1rem;
+    flex:1;
+}
+
 .boton-circuito {
     display: inline-block;
     padding: 10px 22px;
@@ -190,7 +197,7 @@
 }
 
 .boton-circuito:hover {
-    background: #5A3E2B;
+    background: #dcc9a8;
 }
 
 .emprendimientos {
