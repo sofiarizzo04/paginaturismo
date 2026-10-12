@@ -190,9 +190,10 @@
 
 .circuitoturistico h6{
     font-family: "Montserrat", sans-serif;
-    color: #fffdfd;
-    font-size: 0.9rem;
+    color:#000000;
+    font-size: 1rem;
     margin: 0 0 20px;
+    line-height: 1.5;
 }
 
 .boton-circuito {
