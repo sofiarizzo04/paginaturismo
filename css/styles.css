@@ -173,10 +173,12 @@
 }
 
 .circuitoturistico{
-    background-color: #6B7A4E; 
-    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 40px;
+    align-items: center;
     padding: 50px 60px;
-    width: 100%; 
+    background: linear-gradient(135deg, #3E4A2E, #3E4A2E);
 }
 
 .circuitoturistico h5{
