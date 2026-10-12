@@ -187,7 +187,7 @@
     margin: 0 0 15px;
 }
 
-.circuitoturistico h6{
+.circuitoturistico p{
     font-family: "Montserrat", sans-serif;
     color: #fffdfd;
     font-size: 1rem;
@@ -219,7 +219,7 @@
 }
 
 
-.emprendimientos-locales h7 {
+.emprendimientos-locales h6 {
     font-family: "Playfair Display", serif;
     font-size: 1.8rem;
     color: #3E4A2E;
@@ -263,7 +263,7 @@
     justify-content: center;
 }
 
-.experiencia-info h8 {
+.experiencia-info h7 {
     font-family: "Playfair Display", serif;
     color: #040504;
     margin: 0 0 8px;
