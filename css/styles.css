@@ -175,7 +175,7 @@
 .circuitoturistico{
     background-color: #6B7A4E; 
     color: #fff;
-    padding: 19px 0;
+    padding: 50px 60;
     width: 100%; 
 }
 
@@ -183,15 +183,14 @@
     font-family: "playfair Display", serif;
     color: #fffdfd;
     font-size: 1.8rem;
-    flex:1;
      margin: 0 0 15px;
 }
 
 .circuitoturistico h6{
     font-family: "Montserrat", sans-serif;
     color: #fffdfd;
-    font-size: 1rem;
-    flex:1;
+    font-size: 0.9rem;
+    margin: 0 0 20px;
 }
 
 .boton-circuito {
@@ -199,7 +198,7 @@
     padding: 10px 22px;
     background: #DCC9A8;
     color: white;
-    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 0.9rem;
 }
