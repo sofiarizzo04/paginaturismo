@@ -336,19 +336,8 @@
   border-radius: 2px;
 }
 
-/* Tablet */
-@media (max-width: 768px) {
-  .galeria-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
+ 
 
-
-@media (max-width: 480px) {
-  .galeria-grid {
-    gap: 4px;
-  }
-}
 
 :root {
   --oliva: #8a8a5c;
@@ -492,9 +481,5 @@ body {
   fill: currentColor;
 }
 
-@media (max-width: 600px) {
-  .hero { min-height: 170px; }
-  .hero-texto { max-width: 70%; }
-  .barra { justify-content: center; }
-}
+
 
