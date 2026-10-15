@@ -294,7 +294,16 @@
     padding: 19px 0;
     width: 100%; 
 
+    }
+
+    .pueblo h9 {
+    font-family: "Playfair Display", serif;
+    color: #5A3E2B;
+    font-size: 1.8rem;
+    margin: 0 0 15px;
 }
+
+
 .galeria {
   background: #efe9d8;          
   padding: 28px 5vw 34px;
