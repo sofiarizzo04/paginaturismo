@@ -193,6 +193,7 @@
     margin: 0 0 20px;
     line-height: 1.5;
     font-family: "Montserrat", sans-serif;
+
 }
 
 .boton-circuito {
@@ -209,6 +210,89 @@
     background: #DCC9A8;
 }
 
+  .circuito {
+    background: #5b5f35;
+    background-image: radial-gradient(rgba(255,255,255,.05) 1px, transparent 1px);
+    background-size: 6px 6px;
+    color: #f1ead6;
+    padding: 34px 5vw;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  
+  .circuito-texto {
+    flex: 0 0 220px;
+  }
+  .circuito-texto h2 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: clamp(24px, 2.8vw, 34px);
+    font-weight: 500;
+    letter-spacing: .06em;
+    line-height: 1.1;
+    margin: 0 0 12px;
+  }
+  .circuito-texto p {
+    font-size: 12px;
+    line-height: 1.5;
+    opacity: .9;
+    margin: 0;
+  }
+
+ 
+  .circuito-lista {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .circuito-lista::before {
+    content: "";
+    position: absolute;
+    top: 32px;
+    left: 8%;
+    right: 8%;
+    border-top: 2px dotted rgba(241, 234, 214, .7);
+  }
+  .circuito-lista li {
+    position: relative;
+    flex: 1;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.25;
+  }
+  .circuito-lista .icono {
+    display: inline-block;
+    background: #5b5f35;   
+    padding: 0 10px;
+    margin-bottom: 10px;
+  }
+  .circuito-lista svg {
+    width: 56px;
+    height: 56px;
+    display: block;
+    fill: none;
+    stroke: #f1ead6;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  
+  @media (max-width: 800px) {
+    .circuito { flex-direction: column; align-items: flex-start; }
+    .circuito-texto { flex: none; }
+    .circuito-lista { width: 100%; overflow-x: auto; gap: 20px; }
+    .circuito-lista li { flex: 0 0 110px; }
+    .circuito-lista::before { display: none; }
+  }
+ 
+          
 .emprendimientos {
     display: grid;
     grid-template-columns: 1fr 2fr;
