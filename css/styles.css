@@ -628,4 +628,74 @@ body {
 }
 
 
+/* ===== AGREGADO: copyright del footer ===== */
+.copyright {
+  background: var(--marron);
+  color: var(--crema);
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: .08em;
+  padding: 12px 5vw 18px;
+  border-top: 1px solid rgba(241, 234, 214, .2);
+}
 
+/* ===== AGREGADO: responsive ===== */
+img { max-width: 100%; }
+
+/* Tablet */
+@media (max-width: 992px) {
+  .container { flex-direction: column; gap: 14px; }
+  .menu ul { flex-wrap: wrap; justify-content: center; gap: 12px 20px; }
+
+  .texto-portada h1 { font-size: 3.5rem; }
+  .texto-portada h2 { font-size: 2rem; }
+
+  .menuunavegacion { flex-wrap: wrap; }
+  .item-menu { flex: 1 1 33%; border-right: none; }
+
+  .frentones { gap: 30px; padding: 40px 0; }
+
+  .circuito { flex-direction: column; align-items: flex-start; }
+  .circuito-texto { flex: none; }
+  .circuito-lista { width: 100%; flex-wrap: wrap; gap: 24px 10px; justify-content: center; }
+  .circuito-lista::before { display: none; }
+  .circuito-lista li { flex: 0 0 30%; }
+
+  .emprendimientos { grid-template-columns: 1fr; row-gap: 25px; padding: 40px 5vw; }
+}
+
+/* Celular */
+@media (max-width: 600px) {
+  .header { padding: 12px 0; }
+  .menu a { font-size: 12px; }
+
+  .imagenprinc img { height: 420px; object-fit: cover; }
+  .texto-portada { left: 6%; right: 6%; max-width: none; }
+  .texto-portada h1 { font-size: 2.4rem; }
+  .texto-portada h2 { font-size: 1.5rem; }
+  .texto-portada p { font-size: .9rem; }
+
+  .menuunavegacion { padding: 20px 10px; }
+  .item-menu { flex: 1 1 50%; font-size: .85rem; }
+
+  .frentones { flex-direction: column; padding: 30px 0; gap: 25px; text-align: center; }
+  .frentones-texto h4 br { display: none; }
+  .frentonesimagen { width: 100%; }
+  .frentonesimagen img { height: auto; }
+
+  .circuito { padding: 30px 6vw; gap: 24px; }
+  .circuito-lista li { flex: 0 0 45%; }
+
+  .emprendimientos-locales { text-align: center; }
+  .slide.activo { flex-direction: column-reverse; }
+  .slide img { width: 100%; height: 200px; }
+  .experiencia-info { padding: 20px; }
+
+  .fila-fotos { flex-wrap: wrap !important; }
+  .fila-fotos .foto { flex: 1 1 calc(50% - 6px) !important; }
+  .fila-fotos .foto img { height: 160px; }
+
+  .hero-texto { max-width: 85%; }
+  .barra { flex-direction: column; text-align: center; }
+  .logo { flex-direction: column; }
+}
