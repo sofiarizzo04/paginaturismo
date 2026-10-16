@@ -161,9 +161,6 @@
         <a href="#" class="boton-emp">VER MÁS</a>
     </div>
 
-         <div class="carrusel">
-    <div class="carrusel-caja">
-      <div class="slide activo">
         <div class="experiencia-info">
           <h3>EXPERIENCIA FERROVIARIA</h3>
           <span class="experiencia-sub">Astroturismo • Caminatas • Naturaleza</span>
@@ -172,56 +169,6 @@
         <img src="img/cieloabierto.jpeg" alt="Tiny Cabins - A cielo abierto">
       </div>
 
-      <div class="slide">
-        <div class="experiencia-info">
-          <h3>ESTACIÓN CIELO ABIERTO</h3>
-          <span class="experiencia-sub">Astroturismo • Hospedaje • Caminatas</span>
-          <p>Una experiencia única, inolvidable.</p>
-        </div>
-        <img src="img/cieloabiertologo.jpeg" alt="Logo Estación Cielo Abierto">
-      </div>
- <div class="puntos">
-      <button class="punto activo" aria-label="Ver emprendimiento 1"></button>
-      <button class="punto" aria-label="Ver emprendimiento 2"></button>
-      </footer>
-
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  var slides = document.querySelectorAll('.slide');
-  var puntos = document.querySelectorAll('.punto');
-  var actual = 0;
-  var timer;
-
-  if (slides.length < 2) return;
-
-  function mostrar(i) {
-    slides.forEach(function (s) { s.classList.remove('activo'); });
-    puntos.forEach(function (p) { p.classList.remove('activo'); });
-    slides[i].classList.add('activo');
-    if (puntos[i]) puntos[i].classList.add('activo');
-    actual = i;
-  }
-
-  function iniciarAuto() {
-    clearInterval(timer);
-    timer = setInterval(function () {
-      mostrar((actual + 1) % slides.length);
-    }, 5000);
-  }
-
-  puntos.forEach(function (p, i) {
-    p.addEventListener('click', function () {
-      mostrar(i);
-      iniciarAuto();
-    });
-  });
-
-  iniciarAuto();
-});
-</script>
-
-</body>
-</html>
     </div>
   </div>
 </section>
