@@ -707,7 +707,7 @@ img { max-width: 100%; }
   .fila-fotos { flex-wrap: wrap !important; }
   .fila-fotos .foto { flex: 1 1 calc(50% - 6px) !important; }
   .fila-fotos .foto img { height: 160px; }
-.informacion {
+ .informacion {
         flex-direction: column;
         align-items: stretch;
         gap: 24px;
@@ -725,10 +725,10 @@ img { max-width: 100%; }
         border-top: 1px solid #A88F6A;
         font-size: 15px;
     }
-}
-
-  .hero-texto { max-width: 85%; }
+     .hero-texto { max-width: 85%; }
   .barra { flex-direction: column; text-align: center; }
   .logo { flex-direction: column; }
-
 }
+
+
+
