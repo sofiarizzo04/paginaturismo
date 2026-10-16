@@ -219,27 +219,6 @@
   gap: 40px;
 }
 
-.circuito-texto {
-  flex: 0 0 220px;
-}
-
-.circuito-texto h2 {
-  font-family: Georgia, serif;
-  font-size: 30px;
-  font-weight: 500;
-  letter-spacing: .06em;
-  line-height: 1.1;
-  color: #f1ead6;
-  margin: 0 0 12px;
-}
-
-.circuito-texto p {
-  font-size: 12px;
-  line-height: 1.5;
-  color: #f1ead6;
-  margin: 0;
-}
-
 .circuito-lista {
   position: relative;
   flex: 1;
