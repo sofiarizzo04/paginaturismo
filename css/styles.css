@@ -341,11 +341,93 @@
     margin: 0;
 }
 
-.experiencia-ferroviaria img {
-    flex: 1.2;
+.emprendimientos-locales h2 {
+    font-family: "Playfair Display", serif;
+    color: #3b2a1d;
+    font-size: 1.8rem;
+    margin: 0 0 15px;
+}
+
+.emprendimientos-locales p {
+    font-family: "Montserrat", sans-serif;
+    color: #3b2a1d;
+    line-height: 1.5;
+    margin: 0 0 20px;
+}
+
+.carrusel-caja {
+    background: #F6F3EC;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.slide {
+    display: none;
+}
+
+.slide.activo {
+    display: flex;
+}
+
+.experiencia-info {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.experiencia-info h3 {
+    font-family: "Playfair Display", serif;
+    color: #3b2a1d;
+    margin: 0 0 8px;
+}
+
+.experiencia-sub {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+    color: #3b2a1d;
+    margin-bottom: 15px;
+}
+
+.experiencia-info p {
+    font-family: "Montserrat", sans-serif;
+    color: #3b2a1d;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.slide img {
+    flex: 1;
     width: 50%;
+    height: 260px;
     object-fit: cover;
     display: block;
+}
+
+.puntos {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 14px;
+}
+
+.punto {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: none;
+    background: #a88f6a;
+    opacity: .4;
+    cursor: pointer;
+    padding: 0;
+}
+
+.punto.activo {
+    opacity: 1;
+    background: #3b2a1d;
 }
 
 .pueblo{
