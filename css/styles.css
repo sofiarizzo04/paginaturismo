@@ -607,7 +607,7 @@ body {
 }
 
 
-/* ===== AGREGADO: copyright del footer ===== */
+
 .copyright {
   background: var(--marron);
   color: var(--crema);
@@ -618,10 +618,10 @@ body {
   border-top: 1px solid rgba(241, 234, 214, .2);
 }
 
-/* ===== AGREGADO: responsive ===== */
+
 img { max-width: 100%; }
 
-/* Tablet */
+
 @media (max-width: 992px) {
   .container { flex-direction: column; gap: 14px; }
   .menu ul { flex-wrap: wrap; justify-content: center; gap: 12px 20px; }
@@ -643,7 +643,7 @@ img { max-width: 100%; }
   .emprendimientos { grid-template-columns: 1fr; row-gap: 25px; padding: 40px 5vw; }
 }
 
-/* Celular */
+
 @media (max-width: 600px) {
   .header { padding: 12px 0; }
   .menu a { font-size: 12px; }

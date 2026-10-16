@@ -37,3 +37,23 @@ body {
     text-decoration: none;
     font-weight: bold;
 }
+
+
+
+img { max-width: 100%; }
+
+@media (max-width: 992px) {
+  .historia,
+  .historia-imagenes { padding: 30px 5vw; }
+}
+
+@media (max-width: 600px) {
+  .historia,
+  .historia-imagenes { padding: 24px 16px; }
+
+  .historia h1 { font-size: 1.6rem; }
+  .historia-imagenes h2 { font-size: 1.3rem; }
+  .historia p { font-size: 16px; line-height: 1.6; }
+
+  .boton { display: block; text-align: center; }
+}
