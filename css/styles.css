@@ -304,39 +304,29 @@
 }
 
 
-.galeria {
-  background: #efe9d8;          
-  padding: 28px 5vw 34px;
-  text-align: center;
-}
 
-.galeria-titulo {
-  font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: clamp(13px, 1.4vw, 17px);
-  font-weight: 600;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-  color: #3b2a1d;
-  margin-bottom: 18px;
-}
-
-.galeria-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+.puebloimg {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   gap: 6px;
   max-width: 1000px;
   margin: 0 auto;
 }
 
-.galeria-grid img {
+
+.puebloimg {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.puebloimc img {
   width: 100%;
-  aspect-ratio: 4 / 3;          
-  object-fit: cover;            
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
   display: block;
   border-radius: 2px;
 }
-
- 
 
 
 :root {
