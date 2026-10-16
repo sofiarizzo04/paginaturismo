@@ -407,28 +407,7 @@
     display: block;
 }
 
-.puntos {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin-top: 14px;
-}
 
-.punto {
-    width: 9px;
-    height: 9px;
-    border-radius: 50%;
-    border: none;
-    background: #a88f6a;
-    opacity: .4;
-    cursor: pointer;
-    padding: 0;
-}
-
-.punto.activo {
-    opacity: 1;
-    background: #3b2a1d;
-}
 
 .pueblo{
     background-color: #f8f8f8; 
