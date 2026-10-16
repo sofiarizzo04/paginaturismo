@@ -260,7 +260,27 @@
     border-top: 2px dotted rgba(241, 234, 214, .7);
   }
   
- 
+ .circuito-lista li {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.circuito-lista .icono {
+  background: #5b5f35;
+  padding: 0 6px;
+}
+
+.circuito-texto p {
+  color: #f1ead6;
+}
           
 .emprendimientos {
     display: grid;
