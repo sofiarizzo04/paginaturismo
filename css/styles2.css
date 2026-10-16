@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F6F3EC;
+    color: #5A3E2B;
+}
+
+.historia,
+.historia-imagenes {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.historia h1,
+.historia-imagenes h2 {
+    color: #6B7A4E;
+    font-family: Georgia, serif;
+}
+
+.historia p {
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+.historia-imagenes img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 24px;
+    background-color: #3E4A2E;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
