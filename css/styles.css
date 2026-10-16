@@ -14,16 +14,6 @@
     align-items: center; 
 }
 
-.logo-area {
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    height: 50px;
-    width: auto;
-}
-
 .menu ul {
     display: flex;
     list-style: none;
